@@ -64,11 +64,11 @@ def greet(name):
     return f"Hello, {name}"
 ```
 
--람다 함수 (익명 함수):
+- 람다 함수 (익명 함수):
 
 ```python
 square = lambda x: x**2
 print(square(3))  # 9
 ```
 
--기본값 매개변수, 키워드 인자, 가변 인자 등도 학습 필요:
+- 기본값 매개변수, 키워드 인자, 가변 인자 등도 학습 필요:
