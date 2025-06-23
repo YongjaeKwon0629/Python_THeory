@@ -103,7 +103,16 @@ class Person:
 - 특징:
 
  - 캡슐화
+   - 객체 내부의 속성과 메서드를 숨기고 외부에서 접근하지 못하도록 제한.
 
+      ```python
+         class MyClass:
+         def __init__(self):
+         self.__secret = "비밀"  # private 변수
+
+         def get_secret(self):
+         return self.__secret
+      ```
  - 상속
 
  - 다형성
