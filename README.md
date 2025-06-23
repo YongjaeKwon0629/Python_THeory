@@ -49,6 +49,7 @@ if x > 0:
     print("양수")
 else:
     print("음수 또는 0")
+
 - 반복문:
 
 '''python
