@@ -225,12 +225,28 @@ plt.show()
 
 - 머신러닝 기본 개념:
 
-  - 분류(Classification)
+  - 분류(Classification), 회귀(Regression), 클러스터링
+    -분류: 입력 데이터를 미리 정의된 범주(클래스)로 나누는 것
+    -예: 이메일이 "스팸"인지 "정상"인지 분류
 
-  - 회귀(Regression)
+    -회귀: 연속적인 숫자 값을 예측
+    -예: 내일의 온도, 주식 가격
 
-  - 과적합/과소적합
+    -클러스터링: 비슷한 속성을 가진 데이터끼리 자동으로 묶음 (비지도 학습)
+    -예: 고객을 소비 패턴에 따라 그룹화
 
-  - 데이터 분할 (train/test)
+  - 과적합/과소적합, 데이터 분할 (train/test)
+    -Train/Test Split: 데이터를 학습용(Train)과 평가용(Test)으로 나눔
+
+      ```python
+      from sklearn.model_selection import train_test_split
+      X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+      ```
+
+    -과적합(Overfitting): 학습 데이터에는 정확하지만, 새로운 데이터에 일반화되지 못하는 상태
+
+    -과소적합(Underfitting): 너무 단순해서 학습 데이터조차 잘 설명하지 못하는 상태
+
+
 
  
