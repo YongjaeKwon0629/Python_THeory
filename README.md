@@ -52,7 +52,6 @@ else:
 ```
 
 - 반복문:
-
 '''python
 for i in range(5):
     print(i)
