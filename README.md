@@ -54,8 +54,6 @@ else:
 - 반복문:
 
 '''python
-복사
-편집
 for i in range(5):
     print(i)
 ```
