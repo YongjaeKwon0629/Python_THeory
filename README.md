@@ -56,3 +56,19 @@ else:
 for i in range(5):
     print(i)
 ```
+4. 함수와 람다 함수
+- 함수 정의:
+
+```python
+def greet(name):
+    return f"Hello, {name}"
+```
+
+-람다 함수 (익명 함수):
+
+```python
+square = lambda x: x**2
+print(square(3))  # 9
+```
+
+-기본값 매개변수, 키워드 인자, 가변 인자 등도 학습 필요
