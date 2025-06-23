@@ -215,6 +215,16 @@ plt.show()
 
 - 주요 라이브러리: scikit-learn, TensorFlow, PyTorch
 
+-12.1 머신러닝 vs 딥러닝 개념
+머신러닝: 데이터를 기반으로 패턴을 학습하여 예측하는 알고리즘. (예: 의사결정나무, SVM, KNN 등)
+
+딥러닝: 인공신경망 기반의 머신러닝의 하위 분야. (예: CNN, RNN, Transformer 등)
+
+구분	머신러닝	딥러닝
+구조	알고리즘 중심	신경망 계층 구조
+특징	적은 데이터로도 가능	대용량 데이터 필요
+대표 도구	scikit-learn	TensorFlow, PyTorch 
+
 - 머신러닝 기본 개념:
 
   - 분류(Classification)
