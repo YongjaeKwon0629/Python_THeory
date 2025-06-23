@@ -126,13 +126,13 @@ class Person:
          print("멍멍")
       ```
  - 다형성
- - 동일한 이름의 메서드가 클래스마다 다르게 동작하는 성질.
+   - 동일한 이름의 메서드가 클래스마다 다르게 동작하는 성질.
 
-   ```python
-      animals = [Dog(), Cat()]
-      for a in animals:
-      a.speak()  # 각 클래스에 맞게 다르게 실행됨
-   ```
+      ```python
+         animals = [Dog(), Cat()]
+         for a in animals:
+         a.speak()  # 각 클래스에 맞게 다르게 실행됨
+      ```
 
 - 클래스 변수 vs 인스턴스 변수 구분도 중요
 
