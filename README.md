@@ -109,3 +109,94 @@ class Person:
  - 다형성
 
 - 클래스 변수 vs 인스턴스 변수 구분도 중요
+
+---
+
+## 7. 예외 처리와 파일 입출력
+- 예외 처리:
+
+```python
+try:
+    1 / 0
+except ZeroDivisionError:
+    print("0으로 나눌 수 없음")
+```
+- 파일 입출력:
+
+```python
+with open("test.txt", "r") as f:
+    data = f.read()
+```
+
+---
+
+## 8. 모듈, 패키지, 가상환경
+- import로 외부 파일 불러오기
+
+- 패키지 구조로 파일 분리
+
+- 가상환경:
+
+
+```python
+python -m venv venv
+source venv/bin/activate
+```
+
+---
+
+## 9. 파이썬 알고리즘 기초
+재귀 함수, 정렬, 탐색, 재귀, 완전탐색 등의 문제 해결 기법
+
+```python
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+```
+- 리스트/딕셔너리 컴프리헨션
+
+- 시간복잡도 분석도 병행
+
+---
+
+## 10. 파이썬 데이터 분석 입문
+- 핵심 라이브러리: pandas, numpy
+
+```python
+import pandas as pd
+df = pd.read_csv("data.csv")
+print(df.head())
+```
+- 데이터 프레임 생성, 필터링, 그룹화 등
+
+---
+
+ ## 11. 파이썬 시각화 기초
+- 주요 라이브러리: matplotlib, seaborn, plotly
+
+```python
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [10, 20, 30])
+plt.show()
+```
+- 선그래프, 바그래프, 히스토그램, 박스플롯 등
+
+---
+
+ ## 12. 파이썬과 인공지능 개요
+- 딥러닝/머신러닝에 널리 사용되는 언어
+
+- 주요 라이브러리: scikit-learn, TensorFlow, PyTorch
+
+- 머신러닝 기본 개념:
+
+  - 분류(Classification)
+
+  - 회귀(Regression)
+
+  - 과적합/과소적합
+
+  - 데이터 분할 (train/test)
+
+ 
